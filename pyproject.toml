@@ -4,11 +4,14 @@ version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
     "black",
+    "iterative-ensemble-smoother>=0.6.0",
+    "jax>=0.9.1",
     "jupyter",
     "matplotlib",
     "nbconvert",
     "nbmake",
     "numpy",
+    "optax>=0.2.7",
     "p_tqdm",
     "pandas",
     "pytest",
